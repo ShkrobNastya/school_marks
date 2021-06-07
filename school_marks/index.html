@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Marks</title>
+</head>
+<body>
+    <div class="text">
+        Четврети
+    </div>
+    <div class="quarter_marks">
+        <input type="number" min="0" max="10" class="quarter_mark"/>
+        <input type="number" min="0" max="10" class="quarter_mark"/>
+        <input type="number" min="0" max="10" class="quarter_mark"/>
+        <input type="number" min="0" max="10" class="quarter_mark"/>
+    </div>
+    <div class="res">
+        <input type="text" name="res1" id="res1"  class="ress"/>
+    </div>
+    <div class="text">
+        Текущая успеваемость
+    </div>
+    <div class="current_marks">
+        <input type="number" min="0" max="20" id="current_marks_count"/>
+        <button class="count_btn">Добавить</button>
+        <br>
+        <input type="number" min="0" max="10" class="current_mark"/>
+    </div>
+    <div class="res">
+        <input type="text" name="res2" id="res2" class="ress"/>
+    </div>
+    <button class="res_btn">Рассчитать</button>
+    <div class="text">
+        Результат
+    </div>
+    <div class="final_res">
+        <input type="text" name="final_res" id="final_res"/>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

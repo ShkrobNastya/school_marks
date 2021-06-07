@@ -1,0 +1,25 @@
+
+input {
+    width: 70px;
+    height: 40px;
+    margin: 10px 10px;
+    font-size: 22px;
+}
+
+button {
+    height: 40px;
+    font-size: 18px;
+}
+
+.text {
+    margin: 15px 10px;
+    font-size: 22px;
+}
+
+.ress {
+    border-color: aqua;
+}
+
+#final_res {
+    border-color: red;
+}
